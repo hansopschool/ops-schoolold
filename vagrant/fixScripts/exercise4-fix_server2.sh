@@ -1,18 +1,6 @@
 #!/bin/bash
-#add fix to exercise4-server2 here
-Added the IP and hostname of server1 here:
-sudo nano /etc/hosts
-
-
- 
-192.168.100.10  server1
-
-# The following lines are desirable for IPv6 capable hosts
-::1 ip6-localhost ip6-loopback
-fe00::0 ip6-localnet
-ff00::0 ip6-mcastprefix
-ff02::1 ip6-allnodes
-ff02::2 ip6-allrouters
-ff02::3 ip6-allhosts
-
+#add fix to exercise4-server1 here
+echo "192.168.100.10  server1" >> /etc/hosts
+#sudo nano /etc/hosts
+#192.168.100.11  server2
 
