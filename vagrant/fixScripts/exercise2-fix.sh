@@ -1,3 +1,3 @@
 #!/bin/bash
 #add fix to exercise2 here
-curl "http://www.ascii-art.de/ascii/ab/007.txt" >> \vagrant\fixScripts\007.txt
+sudo sed -i '127.0.1.1 www.ascii-art.de' /etc/hosts
